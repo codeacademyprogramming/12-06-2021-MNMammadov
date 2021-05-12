@@ -1,3 +1,11 @@
+@import "utilis";
+@import "titles";
+@import "header";
+@import "footer";
+
 * {
     font-family: 'Montserrat', sans-serif;
+    font-size: $base-font-size;
+    font-weight: 400;
+    color: $main-txt-color;
 }

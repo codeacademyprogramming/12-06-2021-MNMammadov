@@ -1,0 +1,11 @@
+.title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.6875rem;
+    text-align: center;
+    color: $main-txt-color;
+    margin-bottom: 0;
+    &__header {
+        margin-top: $base-indentation * 26.25;
+    }
+}

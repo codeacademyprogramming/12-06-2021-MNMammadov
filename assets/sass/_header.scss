@@ -1,0 +1,49 @@
+.header {
+    background: url("../img/header-bg.png") top center / cover no-repeat;
+    background-color: $bg-color;
+    padding-top: 25px;
+    &__menu-item {
+        margin-bottom: 0;
+        margin-right: $base-indentation * 10;
+        text-decoration: none;
+        color: $main-txt-color;
+        transition: 0.5s all;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 0;
+    }
+
+    &__green-dot {
+        width: $base-indentation;
+        height: $base-indentation;
+        border-radius: 50%;
+        background-color: $green1-color;
+        margin-right: $base-indentation * 2.5;
+    }
+
+    &__call-icon {
+        height: $base-indentation * 5;
+        padding: $base-indentation;
+        background: linear-gradient(287.74deg, #F58656 8.52%, #FE5626 92.72%);
+        box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+        border-radius: 59px;
+        margin-right: $base-indentation * 4;
+        
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        line-height: 1.5625rem;
+        text-align: center;
+        color: $main-txt-color;
+        margin-bottom: 0;
+        margin-top: $base-indentation * 4.5;
+    }
+
+    &__img {
+        margin-left: $base-indentation * 72.5;
+        transform: translateY($base-indentation * 22);
+    }
+}
