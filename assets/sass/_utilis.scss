@@ -1,7 +1,9 @@
 //colors
 $bg-color: #F0F5FB;
 $main-txt-color: #000000;
-$green1-color: #46CB72;
+$green-1-color: #46CB72;
+$gray-1-color: #ECEEF7;
+$white-color: #FFFFFF;
 
 //sizes
 $base-indentation: 4px;
@@ -9,4 +11,17 @@ $base-font-size: 16px;
 
 .f-weight-7 {
     font-weight: 700;
+}
+
+.pt-03 {
+    padding-top: $base-indentation * 8.2;
+}
+
+.p-lr-35 {
+    padding-left: $base-indentation * 35;
+    padding-right: $base-indentation * 35;;
+}
+
+.bgc-white {
+    background-color: $white-color;
 }

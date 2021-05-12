@@ -1,0 +1,40 @@
+.footer {
+    margin-top: $base-indentation * 32.25;
+    background: url("../img/footer-bg.png") top center / cover no-repeat;
+    background-color: $bg-color;
+    padding-top: $base-indentation * 4.75;
+
+    &__more-icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__call-back {
+        margin-top: $base-indentation * 10.5;
+        text-align: center;
+    }
+
+    &__call-back_input {
+        width: 260px;
+        height: 60px;
+        background-color: $white-color;
+        border: 2px solid $gray-1-color;
+        border-radius: 57px;
+        padding: ($base-indentation * 5) ($base-indentation * 7.75);
+        margin-right: $base-indentation * 10;
+        outline: none;
+    }
+
+    &__img {
+        margin-left: $base-indentation * 72.5;
+        transform: translateY($base-indentation * 17);
+    }
+
+    &__subtitle {
+        line-height: 1.375rem;
+        margin-bottom: 0;
+        span {
+            font-weight: 700;
+        }
+    }
+}

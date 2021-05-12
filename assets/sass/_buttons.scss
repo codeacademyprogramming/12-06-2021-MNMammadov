@@ -1,0 +1,16 @@
+.button {
+    width: 260px;
+    height: 60px;
+    background: linear-gradient(180deg, #FE5626 0%, #F23F0E 100%), #59AAF1;
+    box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+    border-radius: 59px;
+    padding: 17px 42px 18px 58px;
+    color: $white-color;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    &__icon_arrow-right{
+        width: $base-indentation * 8;
+        margin-left: $base-indentation * 7.75;
+    }
+}
