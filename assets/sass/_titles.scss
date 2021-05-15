@@ -1,0 +1,20 @@
+.title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.6875rem;
+    text-align: center;
+    margin-bottom: 0;
+
+    &__header {
+        margin-top: $base-indentation * 26.25;
+    }
+
+    &__product {
+        margin-bottom: $base-indentation * 22.5;
+    }
+
+    &__footer {
+        margin-top: $base-indentation * 9;
+        line-height: 4.5rem;
+    }
+}

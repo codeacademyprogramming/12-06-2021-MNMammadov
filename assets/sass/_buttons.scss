@@ -1,0 +1,77 @@
+.button {
+    width: 260px;
+    background: linear-gradient(180deg, #FE5626 0%, #F23F0E 100%), #59AAF1;
+    box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
+    border-radius: 59px;
+    padding: 17px 42px 18px 58px;
+    color: $white-color;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    text-align: center;
+    border: none;
+
+    &__icon_arrow-right{
+        width: $base-indentation * 8;
+        margin-left: $base-indentation * 7.75;
+    }
+
+    &__small {
+        width: 60px;
+        height: 25px;
+        padding: $base-indentation;
+        font-size: 1.33rem;
+        line-height: 1rem;
+        font-weight: 600;
+        background: $button-bg-color;
+        box-shadow: $button-box-shadov;
+        border-radius: 3px;
+    }
+    
+    &__ghost-smal_rotate {
+        width: $base-indentation * 8;
+        height: $base-indentation * 8;
+        border: $border-product;
+        border-radius: 50%;
+        background-color: $white-color;
+        text-align: center;
+        transform: rotate(-45deg);
+    }
+
+    &__medium {
+        background: $button-bg-color;
+        box-shadow: $button-box-shadov;
+        border-radius: 3px;
+        margin-top: $base-indentation * 11;
+        padding: ($base-indentation * 2) 0;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+    &__basket {
+        width: $base-indentation * 20;
+        box-shadow: $button-box-shadov;
+        border-radius: 50%;
+        padding: $base-indentation * 3;
+        border: none;
+        background-color: $white-color;
+    }
+
+    &__basket-check {
+        width: 100%;
+        background: $orange-2-color;
+        border-radius: 14px;
+        padding: 18px 0;
+        border: none;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+
+    &__border_top {
+        width: 344px;
+        height: 1px;
+        border: 1px solid #D7D7D7;
+    }
+}
